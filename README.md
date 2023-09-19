@@ -2,7 +2,7 @@
   
 ## Description
 
-Generates a custom README file based off of user input.
+Generates a custom README file based on user input.\
 
 ## Table of Contents
 
@@ -15,11 +15,11 @@ Generates a custom README file based off of user input.
 
 ## Installation
 
-Command line program running on Node.js.
+Runs inside the command line using node.js and inquirer.
 
 ## Usage
 
-Follow the prompts to fill in the appropriate data, then view the newly created README within the folder.
+Follow the prompts within the command line to add the data to be rendered into the README file.
 
 ## Tests
 
@@ -27,7 +27,7 @@ N/A
 
 ## Credits
 
-Jake Zook
+Jake ZOok
 
 ## Questions
 

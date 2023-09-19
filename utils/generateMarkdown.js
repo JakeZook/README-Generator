@@ -3,14 +3,14 @@
 function renderLicenseBadge(license) {
   if (license.license === 'MIT')
   {
-    return `[!License: MIT(https://img.shields.io/badge/License-MIT-yellow.svg)]
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
     (https://opensource.org/licenses/MIT)`;
   }
 
   else if (license.license === 'GNU GPLv3')
   {
-    return `[!License: GPL v3(https://img.shields.io/badge/License-GPLv3-blue.svg)]
-    (https://www.gnu.org/licenses/gpl-3.0)`;
+    return `[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)]
+    (https://www.gnu.org/licenses/agpl-3.0)`;
   }
 
   else
