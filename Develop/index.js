@@ -12,6 +12,16 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'email',
+        message: 'Enter your email:',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Enter your discord user name:',
+    },
+    {
+        type: 'input',
         name: 'year',
         message: 'Enter the year:',
     },
@@ -34,6 +44,11 @@ const questions = [
         type: 'input',
         name: 'usage',
         message: 'Enter usage information:',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Enter test information:',
     },
     {
         type: 'input',

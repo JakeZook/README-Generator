@@ -3,13 +3,13 @@
 function renderLicenseBadge(license) {
   if (license.license === 'MIT')
   {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+    return `[!License: MIT(https://img.shields.io/badge/License-MIT-yellow.svg)]
     (https://opensource.org/licenses/MIT)`;
   }
 
   else if (license.license === 'GNU GPLv3')
   {
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]
+    return `[!License: GPL v3(https://img.shields.io/badge/License-GPLv3-blue.svg)]
     (https://www.gnu.org/licenses/gpl-3.0)`;
   }
 
@@ -85,7 +85,9 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Tests](#tests)
 - [Credits](#credits)
+- [Questions](#questions)
 - [License](#license)
 
 ## Installation
@@ -96,9 +98,19 @@ ${data.installation}
 
 ${data.usage}
 
+## Tests
+
+${data.test}
+
 ## Credits
 
 ${data.contributing}
+
+## Questions
+
+Feel free to email ${data.email} with any questions.
+
+GitHub: github.com/${data.github}/
 
 ## License
 
