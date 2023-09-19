@@ -19,7 +19,7 @@ Command line program running on Node.js.
 
 ## Usage
 
-Follow the promts to fill in the appropriate data, then view the newly created README within the folder.
+Follow the prompts to fill in the appropriate data, then view the newly created README within the folder.
 
 ## Tests
 
